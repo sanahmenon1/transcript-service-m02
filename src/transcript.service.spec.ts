@@ -45,7 +45,7 @@ describe('getTranscript', () => {
 });
 
 describe('addGrade', () => {
-  it('should allow the user can add a new grade for an existing student', () => {
+  it('should allow the user can add a new grade for an existing student so it is shown on their transcript', () => {
 
   });
 
