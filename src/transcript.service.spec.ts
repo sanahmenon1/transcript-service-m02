@@ -52,4 +52,8 @@ describe('addGrade', () => {
   it('should return the correct grade when getting a grade for a student after the addGrade is called', () => {
 
   });
+
+  it('should throw an error when adding a grade for an ID that does not exist', () => {});
+
+  it('should overwrite the existing grade when adding a grade for a course the student already has a grade for', () => {});
 });
