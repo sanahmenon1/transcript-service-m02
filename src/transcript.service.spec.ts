@@ -43,3 +43,13 @@ describe('getTranscript', () => {
     expect(() => db.getTranscript(1)).toThrowError();
   });
 });
+
+describe('addGrade', () => {
+  it('should allow the user can add a new grade for an existing student', () => {
+
+  });
+
+  it('should return the correct grade when getting a grade for a student after the addGrade is called', () => {
+
+  });
+});
